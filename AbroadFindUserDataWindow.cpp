@@ -28,7 +28,7 @@ bool AbroadFindUserDataWindow::init()
   // CC_RETURN_VALUE_IF_ASSERT_FAIL(pTransUserData != nullptr, false);
     
     WindowBackground* pBackGround = WindowBackground::create(WIN_SIZE_TYPE::BIG_WIN, WIN_BANNER_TYPE::GENERAL_BANNER);
-    m_pContentLayer->addChild(pBackGround);
+    m_pContentLayer->addChild(pBackGround);//WindowBackground
     
     Size bgSize = pBackGround->getContentSize();
     
