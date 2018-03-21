@@ -29,7 +29,7 @@ bool AbroadFindUserDataWindow::init()
     
     WindowBackground* pBackGround = WindowBackground::create(WIN_SIZE_TYPE::BIG_WIN, WIN_BANNER_TYPE::GENERAL_BANNER);
     m_pContentLayer->addChild(pBackGround);//WindowBackgroun
-    
+    //暂时可以保存起来789
     Size bgSize = pBackGround->getContentSize();
     
     SimpleButton* pCloseButton = SimpleButton::create(GENERAL_CLOSE_BUTTON_PURPLE, this, callfuncO_selector(AbroadFindUserDataWindow::onCloseButtonPressed));
